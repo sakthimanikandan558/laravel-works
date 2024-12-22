@@ -1,0 +1,11 @@
+.collapsible-table-widget .fi-section-content {
+    @apply p-0;
+}
+
+.collapsible-table-widget .fi-ta-ctn {
+    @apply rounded-t-none ring-0;
+}
+
+.collapsible-table-widget .fi-section-content-ctn {
+    @apply border-t-0;
+}

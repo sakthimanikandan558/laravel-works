@@ -1,0 +1,30 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+/* .fi-simple-main{
+    @apply bg-blue-500;
+    border: 2px solid red;
+    border-radius: 50px 50px !important;
+}
+.fi-simple-layout {
+    @apply bg-lime-300;
+}
+.fi-topbar nav{
+    @apply h-20 bg-gradient-to-r from-blue-500 via-teal-500 to-green-500 border-0;
+}
+.fi-sidebar-header {
+    @apply h-20 bg-gradient-to-r from-blue-500 via-teal-500 to-green-500;
+}
+.fi-sidebar-nav {
+    @apply bg-gradient-to-b from-blue-500 via-green-500 to-pink-500;
+    @apply text-white;
+}
+.fi-layout{
+    @apply bg-gradient-to-b from-blue-500 via-green-500 to-pink-500 text-white;
+
+}
+.apexcharts-bar-area{
+    @apply rounded-full;
+} */
+

@@ -1,0 +1,14 @@
+/* In your custom CSS file, e.g., resources/css/app.css */
+.custom-button {
+    background-color: #E07E12;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+    background-color: white;
+    color: #E07E12;
+    opacity: 0.9;
+}
