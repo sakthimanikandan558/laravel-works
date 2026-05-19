@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TodoController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\AuthController;
@@ -21,9 +22,11 @@ Route::middleware('guest')->group(function () {
 
 Route::middleware('auth')->group(function () {
 
-    Route::get('/', function () {
-        return Inertia::render('Home');
-    })->name('home');
+    Route::get('/', [TodoController::class, 'index'])
+        ->name('todos.index');
+
+    Route::post('/todos', [TodoController::class, 'store'])
+        ->name('todos.store');
 
     Route::post('/logout', [AuthController::class, 'logout']);
 });

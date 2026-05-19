@@ -25,7 +25,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect()->route('home');
+        return redirect()->route('todos.index');
     }
 
     public function login(Request $request)
@@ -44,7 +44,7 @@ class AuthController extends Controller
 
         $request->session()->regenerate();
 
-        return redirect()->route('home');
+        return redirect()->route('todos.index');
     }
 
     public function logout(Request $request)
